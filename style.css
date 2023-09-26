@@ -12,7 +12,7 @@ html,body{
 
 *::selection{
     color: black;
-    background-color: #ffffffd8;
+    background-color: white;
 }
 
 .minicircle{
