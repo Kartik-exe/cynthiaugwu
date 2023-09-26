@@ -10,6 +10,11 @@ html,body{
     height: 100%;
 }
 
+*::selection{
+    color: black;
+    background-color: #ffffffd8;
+}
+
 .minicircle{
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
     width: 12px;

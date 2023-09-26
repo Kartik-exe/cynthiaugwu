@@ -43,7 +43,7 @@ function flatminicircle(){
         xprev = dets.clientX;
         yprev = dets.clientY;
 
-        console.log(dets.clientX, dets.clientY)
+        // console.log(dets.clientX, dets.clientY)
 
         circleMouseFollower(xscale, yscale);
     });
@@ -51,7 +51,7 @@ function flatminicircle(){
 
 flatminicircle();
 
-function circleMouseFollower(xscale, yscale){
+function circleMouseFollower(){
     window.addEventListener("mousemove", function(dets){
     document.querySelector(".minicircle").style.transform = `translate(${dets.clientX}px, ${dets.clientY}px) scale(${xscale} ${yscale})`;
     })
@@ -61,4 +61,3 @@ circleMouseFollower();
 firstPageAnime();
 
 // 2:04:00
-// Ye code saala chal nahi raha koi solve kardo bc
