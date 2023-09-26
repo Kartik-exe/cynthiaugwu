@@ -61,3 +61,4 @@ circleMouseFollower();
 firstPageAnime();
 
 // 2:04:00
+// Ye code saala chal nahi raha koi solve kardo bc
