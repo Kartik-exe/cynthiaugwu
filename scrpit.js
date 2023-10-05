@@ -63,7 +63,7 @@ function circleMouseFollower(xscale, yscale){
     })
 }
 
-
+//end of all functions!
 flatminicircle();
 circleMouseFollower();
 firstPageAnime();
