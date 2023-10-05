@@ -47,7 +47,6 @@ function flatminicircle(){
         xprev = dets.clientX;
         yprev = dets.clientY;
         
-        // console.log(dets.clientX, dets.clientY)
 
         circleMouseFollower(xscale, yscale);
         
@@ -63,7 +62,7 @@ function circleMouseFollower(xscale, yscale){
     })
 }
 
-//end of all functions!
+
 flatminicircle();
 circleMouseFollower();
 firstPageAnime();
